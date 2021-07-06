@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Lab_5",
+    "slug": "Lab_5",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash_screen.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "splash": {
+        "ldpi": "./assets/images/splash-screens/ldpi.png",
+        "mdpi": "./assets/images/splash-screens/mdpi.png",
+        "hdpi": "./assets/images/splash-screens/hdpi.png",
+        "resizeMode": "cover"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
